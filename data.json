@@ -1,0 +1,82 @@
+[
+      {
+            "title": "What is State Regulations? Why is it important? Provide concrete examples. ",
+            "category": "Psychology and Education, Argumentative essay",
+            "deadline": "Jul 28, 11:59 AM",
+            "createDate": "Jul 23, 11:00 AM",
+            "status": "progress",
+            "statusMessage": "",
+            "steps": "5",
+            "currentStep": "1",
+            "bids": "35",
+            "assigned": {
+                  "name": "Nevajno",
+                  "rate": "9.8",
+                  "icon": "img/user1.jpg",
+                  "status": "online"
+            },
+            "price": "1250",
+            "paid": "100",
+            "id": "1111111"
+      },
+      {
+            "title": "Microeconomic",
+            "category": "Coursework, Health Care and Life Sciences",
+            "deadline": "Jul 26, 11:59 AM",
+            "createDate": "Jul 24, 1:34 AM",
+            "status": "bidding",
+            "statusMessage": "",
+            "steps": "1",
+            "currentStep": "1",
+            "bids": "35",
+            "assigned": {
+                  "name": "",
+                  "rate": "",
+                  "icon": "",
+                  "status": ""
+            },
+            "price": "230",
+            "paid": "0",
+            "id": "2222222"
+      },
+      {
+            "title": "why lying and stealing is wrong ",
+            "category": "Essay (any type), English and Literature",
+            "deadline": "Jul 25, 9:29 PM",
+            "createDate": "Jul 21, 6:20 AM",
+            "status": "canceled",
+            "statusMessage": "canceled automatically",
+            "steps": "1",
+            "currentStep": "1",
+            "bids": "35",
+            "assigned": {
+                  "name": "Schofield",
+                  "rate": "8.9",
+                  "icon": "img/user2.jpg",
+                  "status": "offline"
+            },
+            "price": "30",
+            "paid": "0",
+            "id": "3333333"
+      },
+      {
+            "title": "Some finished task ",
+            "category": "Psychology and Education, Argumentative essay",
+            "deadline": "Jul 29, 11:59 AM",
+            "createDate": "Jul 21, 6:45 PM",
+            "status": "finished",
+            "statusMessage": "",
+            "steps": "5",
+            "currentStep": "5",
+            "bids": "25",
+            "assigned": {
+                  "name": "Hulio",
+                  "rate": "9.5",
+                  "icon": "img/user1.jpg",
+                  "status": "online"
+            },
+            "price": "650",
+            "paid": "650",
+            "id": "4444444"
+      }
+]

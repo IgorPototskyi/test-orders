@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400" rel="stylesheet">
+</head>
+
+<body>
+      <header class="header-wrap">
+            <div class="ordlogo">
+                  <img class="ordlogo__img" src="img/Logo.png" alt="Pen">
+                  <h1 class="ordlogo__heading">iWrite</h1>
+            </div>
+            <a class="resp-menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <nav class="nav">
+                  <a class="nav__item nav__item--resp" href="#orders"><i class="fa fa-archive fa-lg" aria-hidden="true"></i>orders</a>
+                  <a class="nav__item nav__item--resp" href="#support"><i class="fa fa-life-ring fa-lg" aria-hidden="true"></i>support</a>
+                  <a class="nav__item nav__item--resp" href="#profile"><i class="fa fa-cog fa-lg" aria-hidden="true"></i>profile</a>
+                  <a class="nav__item nav__item--resp" href="#balance"><i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>balance</a>
+                  <div class="balance">
+                        <span class="balance__current">$40.00</span>
+                        <span class="balance__done">$50.60</span>
+                  </div>
+            </nav>
+            <div class="user">
+                  <button class="user__bt bt-add"><i class="fa fa-plus fa-lg" aria-hidden="true"></i>New order</button>
+                  <a class="user__like" href="#like"><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></a>
+                  <a class="user__notify" href="#notifications"><i class="fa fa-bell-o fa-lg" aria-hidden="true"></i></a>
+                  <a class="user__avatar dd" href="#profile"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i></a>
+                  <a class="user__menu dd" href="#dropprofile"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                  <div class="user__window">
+                        <a class="w-item" href=""><i class="fa fa-user" aria-hidden="true"></i>profile</a>
+                        <a class="w-item" href=""><i class="fa fa-line-chart" aria-hidden="true"></i>my rating</a>
+                        <a class="w-item" href=""><i class="fa fa-tasks" aria-hidden="true"></i>my tasks</a>
+                        <a class="w-item" href=""><i class="fa fa-search" aria-hidden="true"></i>find a task</a>
+                        <a class="w-item" href=""><i class="fa fa-hand-rock-o" aria-hidden="true"></i>withdraw money</a>
+                  </div>
+            </div>
+      </header>
+      <div class="taskshead">
+            <div class="status-sort">
+                  <a class="taskshead__status" id="recent" href="#recent">recent</a>
+                  <a class="taskshead__status" id="finished" href="#finished">finished</a>
+                  <a class="taskshead__status" id="canceled" href="#canceled">canceled</a>
+            </div>
+            <div class="id-sort">
+                  <a href="" class="taskshead__sort">sorted by id<i class="fa fa-chevron-circle-down fa-lg arrow-sort" aria-hidden="true"></i></a>
+            </div>
+      </div>
+      <div class="tasksbody">
+            <div class="tasksbody__heading">
+                  <h2 class="col-heading col-title">title</h2>
+                  <h2 class="col-heading col-deadline">deadline</h2>
+                  <h2 class="col-heading col-status">status</h2>
+                  <h2 class="col-heading col-assign">assigned to</h2>
+                  <h2 class="col-heading col-price">price/paid</h2>
+                  <h2 class="col-heading col-id">id</h2>
+            </div>
+      </div>
+
+      <!-- template -->
+      <div class="order" style="display:none;" id="order-template">
+            <div class="order__name">
+                  <div class="order__title"></div>
+                  <div class="order__category"></div>
+            </div>
+            <div class="order__date">
+                  <div class="order__deadline"></div>
+                  <div class="order__timeleft"></div>
+            </div>
+            <div class="order__state">
+                  <div class="order__status"></div>
+                  <div class="order__status-bar status-bar">
+                        <div class="status-bar__inner"></div>
+                  </div>
+            </div>
+            <div class="order__assigned">
+                  <div class="order__icon">
+                        <div class="order__img">
+                              <div class="order__user-status"></div>
+                        </div>   
+                  </div>
+                  <div class="order__user">
+                        <div class="order__username"></div>
+                        <div class="order__rate">
+                              <i class="fa fa-star"></i>
+                        </div>
+                  </div>
+            </div>
+            <div class="order__cost">
+                  <div class="order__price"></div>
+                  <div class="order__paid"></div>
+            </div>
+            <div class="order__id"></div>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+</body>
+
+</html>
